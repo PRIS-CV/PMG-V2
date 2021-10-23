@@ -7,11 +7,11 @@ from torch.utils.data import Dataset
 
 def config(data):
     if data == 'bird':
-        train_root = './data/CUB/train'       # data/data1
-        test_root = './data/CUB/test'         # data/data1
-        train_pd = pd.read_csv("./data/CUB/bird_train.txt", sep=" ", header=None,
+        train_root = './data/CUB/images'       
+        test_root = './data/CUB/images'         
+        train_pd = pd.read_csv("./data/bird_train.txt", sep=" ", header=None,
                                names=['ImageName', 'label'])
-        test_pd = pd.read_csv("./data/CUB/bird_test.txt", sep=" ", header=None,
+        test_pd = pd.read_csv("./data/bird_test.txt", sep=" ", header=None,
                               names=['ImageName', 'label'])
         cls_num = 200
 
