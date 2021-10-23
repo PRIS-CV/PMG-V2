@@ -169,4 +169,4 @@ train(nb_epoch=200,
          store_name='cub-200-2011',
          resume=False,
          start_epoch=0,
-         model_path='./bir_161_16_allrelu/last.pth')
+         model_path='')
