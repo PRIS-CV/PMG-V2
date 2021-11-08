@@ -1,6 +1,6 @@
 # PMG-V2
  
-Code release for "Progressive Learning of Category-Consistent Multi-Granularity Features for Fine-Grained Visual Classification" (T-PAMI).
+Code release for "Progressive Learning of Category-Consistent Multi-Granularity Features for Fine-Grained Visual Classification" (IEEE T-PAMI 2021).
 
 It is the extended version of "Fine-Grained Visual Classiﬁcation via Progressive Multi-Granularity Training of Jigsaw Patches" (ECCV2020): https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training
  
